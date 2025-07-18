@@ -32,6 +32,7 @@ def chatbot(state: BasicChatBot):
 # Conditional routing based on tool_calls
 def tools_router(state: BasicChatBot):
     last_message = state["messages"][-1]
+    print(f"Last message: {last_message}")
     if hasattr(last_message, "tool_calls") and last_message.tool_calls:
         return "tool_node"
     else:
