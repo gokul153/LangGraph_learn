@@ -6,3 +6,4 @@ langchain-groq
 grandalf
 langgraph
 chromadb
+langchain_openai
