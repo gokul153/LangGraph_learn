@@ -1,2 +1,5 @@
 /myennv
 .env
+/myenv
+.sqlite
+.sqlite-shm
